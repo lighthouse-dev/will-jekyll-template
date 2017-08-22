@@ -5,7 +5,6 @@ date: 2017-08-23 02:23:51
 image: '/assets/img/'
 description: 'epel-releseをインストール'
 tags:
-- Linux
 - CentOS
 categories:
 - Linux
@@ -21,8 +20,8 @@ categories:
     extras                                CentOS-6 - Extras                                   35
     updates                               CentOS-6 - Updates                                 298
     repolist: 6,908
-    
->
+
+
 
     $ rpm -qa epel-release
     $ yum list epel-release
@@ -31,6 +30,7 @@ categories:
     Available Packages
     epel-release.noarch                                6-8                                 extras
 
+<br>
 
 # epel インストール
 
@@ -60,13 +60,14 @@ categories:
 
 [※ epel-releaseで検索し、最新バージョンを確認する。](http://dl.fedoraproject.org/pub/epel/6/x86_64/)
 
+<br>
 
 # 確認
 
     $ rpm -qa epel-release
     epel-release-6-8.noarch
 
->
+
 
     $ yum list installed epel-release
 
@@ -74,7 +75,7 @@ categories:
     Installed Packages
     epel-release.noarch                                6-8                                @extras
 
->
+
 
     $ yum repolist
     
