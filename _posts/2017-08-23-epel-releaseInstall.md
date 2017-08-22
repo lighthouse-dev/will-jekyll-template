@@ -22,7 +22,7 @@ categories:
     updates                               CentOS-6 - Updates                                 298
     repolist: 6,908
     
-######
+>
 
     $ rpm -qa epel-release
     $ yum list epel-release
@@ -66,7 +66,7 @@ categories:
     $ rpm -qa epel-release
     epel-release-6-8.noarch
 
-######
+>
 
     $ yum list installed epel-release
 
@@ -74,7 +74,7 @@ categories:
     Installed Packages
     epel-release.noarch                                6-8                                @extras
 
-######
+>
 
     $ yum repolist
     
