@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CentOS6系にremiレポジトリを追加する。"
+title: "CentOS6系にremiレポジトリを追加する"
 date: 2017-08-23 03:00:22
 image: '/assets/img/'
-description: "CentOS6系にremiレポジトリを追加する。"
+description: ""
 tags:
 - CentOS
 categories:

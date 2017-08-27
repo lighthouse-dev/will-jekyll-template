@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CentOS6系にepel-releseをインストールする。"
+title: "CentOS6系にepel-releseをインストールする"
 date: 2017-08-23 02:23:51
 image: '/assets/img/'
-description: 'epel-releseをインストール'
+description: ''
 tags:
 - CentOS
 categories:
