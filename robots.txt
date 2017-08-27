@@ -1,3 +1,6 @@
 # robotstxt.org/
 
 User-agent: *
+Allow: /
+
+Sitemap: https://lighthouse-dev.github.io/sitemap.xml
