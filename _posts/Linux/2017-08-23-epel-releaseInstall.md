@@ -8,6 +8,9 @@ tags:
 - CentOS
 categories:
 - Linux
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 # 確認

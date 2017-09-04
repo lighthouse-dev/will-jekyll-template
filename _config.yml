@@ -2,7 +2,9 @@
 title: returnTrue
 description: Ideas worth spreading.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lighthouse-dev.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://lighthouse-dev.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+google_analytics:
+  ua: 'UA-105814287-1'
 
 # User settings
 username: returnTrue
