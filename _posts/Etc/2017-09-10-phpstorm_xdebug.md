@@ -7,6 +7,7 @@ description:
 tags:
 - PhpStorm
 - xdebug
+- PHP
 categories:
 - ETC
 sitemap :
@@ -38,9 +39,9 @@ sitemap :
 ### Xdebugをインストール
     $ pecl install Xdebug
 
+##### ※エラーになる場合
 
-※エラーになる場合
-> // yum --enablerepo=remi-phpバージョン install php-devel php-pear
+    yum --enablerepo=remi-phpバージョン install php-devel php-pear
     
     $ yum --enablerepo=remi-php56 install php-devel php-pear
 	
@@ -50,10 +51,9 @@ sitemap :
 
     $ vi /etc/php.ini
 
+<br>
 
 ↓以下を追加
-
-
 > [xdebug]  
 > zend_extension="/usr/lib64/php/modules/xdebug.so"  
 > xdebug.default_enable = 1  
@@ -81,15 +81,15 @@ sitemap :
 ### リモートホストの設定
 
 1. Remote Hostを表示
-    
-    > [ Tools > Deployment > Browse Remote Host ]をクリックする
+
+    [ Tools > Deployment > Browse Remote Host ]をクリックする
 
 2. サーバーを登録
-    > [ Tools > Deployment > Configuration... ]　を開く  
+
+    [ Tools > Deployment > Configuration... ]　を開く  
 
     ![](/assets/img/posts/Etc/Deployment1.png)
-    
-    `[test SFTP connection]` をクリックし、成功することを確認
+    * `[test SFTP connection]` をクリックし、成功することを確認
 
     ![](/assets/img/posts/Etc/Deployment2.png)
 
@@ -98,7 +98,7 @@ sitemap :
 
 ### PHPリモートデバッグの設定
 
->  [ Run > Edit Configurations... ]　を開く
+[ Run > Edit Configurations... ]　を開く
 
 ![](/assets/img/posts/Etc/Run_Debug_Configurations.png)
 
