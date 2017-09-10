@@ -39,8 +39,7 @@ sitemap :
 ### Xdebugをインストール
     $ pecl install Xdebug
 
-##### ※エラーになる場合
-
+#### ※エラーになる場合
     yum --enablerepo=remi-phpバージョン install php-devel php-pear
     
     $ yum --enablerepo=remi-php56 install php-devel php-pear
@@ -80,16 +79,14 @@ sitemap :
 
 ### リモートホストの設定
 
-1. Remote Hostを表示
+1. Remote Hostを表示  
+[ Tools > Deployment > Browse Remote Host ]をクリックする
 
-    [ Tools > Deployment > Browse Remote Host ]をクリックする
-
-2. サーバーを登録
-
-    [ Tools > Deployment > Configuration... ]　を開く  
+2. サーバーを登録  
+[ Tools > Deployment > Configuration... ]　を開く  
 
     ![](/assets/img/posts/Etc/Deployment1.png)
-    * `[test SFTP connection]` をクリックし、成功することを確認
+* `[test SFTP connection]` をクリックし、成功することを確認
 
     ![](/assets/img/posts/Etc/Deployment2.png)
 
@@ -101,7 +98,6 @@ sitemap :
 [ Run > Edit Configurations... ]　を開く
 
 ![](/assets/img/posts/Etc/Run_Debug_Configurations.png)
-
 1. PHP Remote Debugをクリック  
 2. 名前、サーバーIPアドレス、Ide Key(※php.iniで設定したKey)  
 などを設定する
