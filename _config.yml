@@ -1,5 +1,5 @@
 # Site settings
-title: returnTrue
+title: lighthouse.log
 description: Ideas worth spreading.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lighthouse-dev.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
@@ -7,9 +7,9 @@ google_analytics:
   ua: 'UA-105814287-1'
 
 # User settings
-username: returnTrue
+username: lighthouse-dev
 user_description: Juseung Lee
-user_title: full stack developer!
+user_title: full stack developer
 email: lighthouse2.dev@gmail.com
 twitter_username: 
 github_username:  lighthouse-dev
