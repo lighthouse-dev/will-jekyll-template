@@ -7,7 +7,7 @@ google_analytics:
   ua: 'UA-105814287-1'
 
 # User settings
-username: lighthouse-dev
+username: lighthouse.log
 user_description: Juseung Lee
 user_title: full stack developer
 email: lighthouse2.dev@gmail.com
