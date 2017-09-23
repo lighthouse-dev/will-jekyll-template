@@ -11,6 +11,7 @@ categories:
 sitemap :
   changefreq : daily
   priority : 1.0
+comments: true
 ---
 
 # 事前作業
