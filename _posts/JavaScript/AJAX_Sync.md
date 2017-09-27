@@ -1,0 +1,72 @@
+---
+layout: post
+title: "AJAXを同期(Sync)で通信する"
+date: 2017-09-28 00:24:00
+image: '/assets/img/posts/'
+description:
+tags:
+- Ajax
+- JQuery
+- Java Script
+categories:
+- Java Script
+sitemap :
+  changefreq : daily
+  priority : 1.0
+comments: true
+---
+
+# 概要
+
+Ajaxは、皆さんも知っている通り、基本的に非同期で通信します。
+※そもそもAjaxとはAsynchronous Javascript And XMLの略です
+
+なので、データ通信や処理をしている間に、同時に他の動作や処理をすることができるため、
+不要なローディングを少なくし、より自由にページを構成することができます。
+
+でも場合によっては、Ajaxを同期で通信しなければならない場合もあるので、
+今回は、「AJAXの同期通信」について説明します！
+<br><br>
+
+# 非同期
+
+まずは非同期通信のサンプルです。
+
+    $.ajax({
+      type: 'POST',
+      url: 'test.php',
+      data: "name=lee",
+      success: function(data) {
+        if(data != null) {
+          // Do somothing.
+        }
+      }
+    });
+    doAnything();
+
+※ここでdoAnything()は、上のAjaxの結果と関係なく、必ず実行されます。
+<br><br>
+
+# 同期
+
+    $.ajax({
+      type: 'POST',
+      url: 'test.php',
+      data: "name=lee",
+      async : false,   // ← asyncをfalseに設定する
+      success: function(data) {
+        if(data != null) {
+          // Do somothing.
+        }
+      }
+    });
+    doAnything();
+
+asyncは、デフォルトがtrueですが、上のソースのようにfalseに設定すれば、同期で通信します。
+<br><br>
+
+# まとめ
+
+めちゃくちゃ簡単なことですが、意外とよく忘れるので(俺だけ？)  
+覚えておけば、すごく便利だと思います。
+
