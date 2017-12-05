@@ -16,28 +16,26 @@ sitemap :
 comments: true
 ---
 
-# PhpStorm + Xdebugでリモートデスクトップ
-
-## Xdebug?
+# Xdebug?
 * デバック及びプロファイリング機能を提供するPHP拡張モデュール
 * PECLを用いてインストール可能
 
 <br><br>
 
-## 1. Xdebugをインストール（CentOS）
+# 1. Xdebugをインストール（CentOS）
 
-### php-devel、php-pearをインストール
+## php-devel、php-pearをインストール
     $ yum install php-devel
     $ yum install php-pear
 
 <br>
 
-### gcc、gcc-c++、autoconf、automakeをインストール
+## gcc、gcc-c++、autoconf、automakeをインストール
     $ yum install gcc gcc-c++ autoconf automake
 
 <br>
 
-### Xdebugをインストール
+## Xdebugをインストール
     $ pecl install Xdebug
     
 
@@ -47,7 +45,7 @@ comments: true
 	
 <br>
 
-### /etc/php.iniを修正
+## /etc/php.iniを修正
 
     $ vi /etc/php.ini
 
@@ -69,21 +67,21 @@ comments: true
 
 <br>
 
-### Apacheをリスタート
+## Apacheをリスタート
 
     $ service httpd restart
 
 
 <br><br>
 
-## 2. PhpStormでの設定
+# 2. PhpStormでの設定
 
-### リモートホストの設定
+## リモートホストの設定
 
-#### 1.Remote Hostを表示  
+### 1.Remote Hostを表示  
 [ Tools > Deployment > Browse Remote Host ]をクリックする
 
-#### 2. サーバーを登録  
+### 2. サーバーを登録  
 [ Tools > Deployment > Configuration... ]　を開く  
 
 ![](/assets/img/posts/Etc/Deployment1.png)
@@ -93,7 +91,7 @@ comments: true
 
 <br>
 
-### PHPリモートデバッグの設定
+## PHPリモートデバッグの設定
 
 [ Run > Edit Configurations... ]　を開く
 
