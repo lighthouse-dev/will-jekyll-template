@@ -16,3 +16,18 @@ html{font-family:'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo
     background-image: url("../img/background-image.png");  
     background-size: cover;
 }
+
+.highlight {
+    margin: auto;
+}
+  
+.pre {
+    width: auto;
+    max-width: 50rem;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5 {
+    margin: auto;
+    max-width: 50rem;
+    padding: 0 1.25rem;
+}
